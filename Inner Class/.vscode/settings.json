@@ -1,0 +1,6 @@
+{
+  "java.search.scope": "all",
+  "java.debug.settings.onBuildFailureProceed": true,
+  "editor.aiStats.enabled": true,
+  "editor.allowVariableFontsInAccessibilityMode": true
+}
