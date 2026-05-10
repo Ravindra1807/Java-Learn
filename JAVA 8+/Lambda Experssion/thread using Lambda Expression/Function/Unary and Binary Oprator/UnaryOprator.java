@@ -15,6 +15,12 @@ public class UnaryOprator {
 
         // vese hi string me
         UnaryOperator<String> unaryOperator2 = str -> str.repeat(3);
-        System.out.println(unaryOperator2.apply("Rajendra ")); 
+        System.out.println(unaryOperator2.apply("Rajendra "));
+
+        UnaryOperator<String> STD = str -> str.toUpperCase();
+         STD.apply("Suresh");
+
+          
+        System.out.println(STD.apply("Rajesh")); 
     }
 }
