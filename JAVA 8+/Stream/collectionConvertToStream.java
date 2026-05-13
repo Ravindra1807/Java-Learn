@@ -14,7 +14,7 @@ public class collectionConvertToStream {
       // Array Convert To Stream
        Stream<String> stream = Arrays.stream(array);
 
-       //Direct Stream   
+       // Direct Stream   
        Stream<Integer> direct = Stream.of(1,2,3,4,5);
 
     // interate(seed(firstvalue of stream),(Unary-Lembda Expression))
@@ -23,6 +23,7 @@ public class collectionConvertToStream {
 
       // Supplier ka use se kuch generate karna ho shirf output dega
       Stream<Integer> str = Stream.generate(() -> (int) Math.random() * 100).limit(5);
-    
+
+     
     }
 }
